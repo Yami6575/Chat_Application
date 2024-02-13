@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381238885573",
+    "project_id": "niki-694fc",
+    "storage_bucket": "niki-694fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381238885573:android:c5a708d1d2355a6980c4ac",
+        "android_client_info": {
+          "package_name": "com.example.niki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASCajWrNRZ167olpmPil0ndXT6yosDGfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
