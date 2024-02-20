@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.603" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/rgemail"
         android:layout_width="121dp"
         android:layout_height="47dp"
         android:ems="10"
@@ -124,7 +124,7 @@
         app:layout_constraintVertical_bias="0.516" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/rgpassword"
         android:layout_width="219dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -140,7 +140,7 @@
         app:layout_constraintVertical_bias="0.713" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/rgrepassword"
         android:layout_width="219dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -156,7 +156,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signupbutton"
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_40sdp"
         android:backgroundTint="@color/black"
@@ -172,7 +172,7 @@
         app:layout_constraintVertical_bias="0.804" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/loginbutton"
         android:layout_width="161dp"
         android:layout_height="35dp"
         android:gravity="center"
@@ -186,7 +186,7 @@
         app:layout_constraintVertical_bias="0.885" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/rgusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
