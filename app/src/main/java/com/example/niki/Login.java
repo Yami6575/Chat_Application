@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.app.ProgressDialog;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -21,6 +22,7 @@ import io.reactivex.annotations.NonNull;
 
 public class Login extends AppCompatActivity {
     Button button;
+    TextView logsignup;
     EditText email,password;
     FirebaseAuth auth;
 
@@ -33,7 +35,16 @@ public class Login extends AppCompatActivity {
         button=findViewById(R.id.logbutton);
         email=findViewById(R.id.editlogemail);
         password=findViewById(R.id.editlogpassword);
+        logsignup=findViewById(R.id.loginsignup);
         String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+        logsignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this,Registration.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 String Email = email.getText().toString();
